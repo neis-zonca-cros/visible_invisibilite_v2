@@ -16,7 +16,7 @@ export default function Conclusion({ genreDataO, genreDataP, genreDataM, genreDa
         '#d58a75',
         '#f6d890'
       ],
-      hoverOffset: 4
+      hoverOffset: 1
     }]
   };
  
