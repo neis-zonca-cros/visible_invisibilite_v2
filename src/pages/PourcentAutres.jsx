@@ -9,8 +9,8 @@ const Modal = ({ isOpen, onClose, streetNames }) => {
     <div className="fixed inset-0 flex justify-center items-center bg-opacity-50 z-[99]">
       <div className="bg-background p-6 w-screen h-screen overflow-y-auto relative">
         
-        <button onClick={onClose} className="absolute top-10 right-10 text-background rounded hover:scale-110 transition-transform ease-in-out duration-200 w-fit ">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#769897" className="w-6 h-6">
+        <button onClick={onClose} className="fixed top-10 right-10 text-background bg-background rounded hover:scale-110 transition-transform ease-in-out duration-200 w-fit ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#769897" className="w-10 h-10">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
         </button>

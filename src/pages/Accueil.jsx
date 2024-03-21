@@ -1,5 +1,5 @@
 import React from 'react';
-import bus from '../assets/bus.png'; // Remplacez 'path/to/your/image.jpg' par le chemin de votre image
+import bus from '../assets/bus.png'; 
 
 export default function Accueil() {
   return (
