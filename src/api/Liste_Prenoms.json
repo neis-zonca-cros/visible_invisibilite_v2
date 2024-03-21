@@ -5511,10 +5511,7 @@
 		"name": "Bella",
 		"genre": "f"
 	},
-	{
-		"name": "belle",
-		"genre": "f"
-	},
+
 	{
 		"name": "bellona",
 		"genre": "f"
@@ -5661,6 +5658,10 @@
 	},
 	{
 		"name": "Benoit",
+		"genre": "m"
+	},
+	{
+		"name": "Benoist",
 		"genre": "m"
 	},
 	{
@@ -6199,10 +6200,7 @@
 		"name": "blanch",
 		"genre": "f"
 	},
-	{
-		"name": "Blanche",
-		"genre": "f"
-	},
+
 	{
 		"name": "Blandine",
 		"genre": "f"
@@ -7757,7 +7755,7 @@
 	},
 	{
 		"name": "carry",
-		"genre": "f"
+		"genre": "m"
 	},
 	{
 		"name": "carson",
@@ -10939,10 +10937,7 @@
 		"name": "demetrius",
 		"genre": "m"
 	},
-	{
-		"name": "demi",
-		"genre": "f"
-	},
+
 	{
 		"name": "democritus",
 		"genre": "m"
@@ -19211,10 +19206,7 @@
 		"name": "harmonia",
 		"genre": "f"
 	},
-	{
-		"name": "harmonie",
-		"genre": "f"
-	},
+
 	{
 		"name": "harmony",
 		"genre": "f"
@@ -29107,10 +29099,7 @@
 		"name": "lorne",
 		"genre": "m"
 	},
-	{
-		"name": "Lorraine",
-		"genre": "f"
-	},
+
 	{
 		"name": "lorri",
 		"genre": "f"
@@ -32086,6 +32075,26 @@
 	{
 		"name": "maybelline",
 		"genre": "f"
+	},
+	{
+		"name": "tourville",
+		"genre": "m"
+	},
+	{
+		"name": "Villeroy",
+		"genre": "m"
+	},
+	{
+		"name": "pazzi",
+		"genre": "m"
+	},
+	{
+		"name": "Brigadier",
+		"genre": "m"
+	},
+	{
+		"name": "Bellissen",
+		"genre": "m"
 	},
 	{
 		"name": "Mayeul",
@@ -46575,10 +46584,7 @@
 		"name": "torvald",
 		"genre": "m"
 	},
-	{
-		"name": "Toscane",
-		"genre": "f"
-	},
+
 	{
 		"name": "totty",
 		"genre": "f"
@@ -47895,10 +47901,7 @@
 		"name": "vico",
 		"genre": "m"
 	},
-	{
-		"name": "Victoire",
-		"genre": "f"
-	},
+
 	{
 		"name": "Victor",
 		"genre": "m"
@@ -47951,10 +47954,7 @@
 		"name": "vien",
 		"genre": "m"
 	},
-	{
-		"name": "vienne",
-		"genre": "f"
-	},
+
 	{
 		"name": "viggo",
 		"genre": "m"
@@ -51085,7 +51085,7 @@
 	},
 	{
 		"name": "Domrémy",
-		"genre": "f"
+		"genre": "m"
 	},
 	{
 		"name": "Caton",
@@ -52003,10 +52003,7 @@
 		"name": "Galland",
 		"genre": "m"
 	},
-	{
-		"name": "Estrées",
-		"genre": "f"
-	},
+
 	{
 		"name": "Enghien",
 		"genre": "m"
@@ -52139,10 +52136,7 @@
 		"name": "Malesherbes",
 		"genre": "m"
 	},
-	{
-		"name": "Pazzi",
-		"genre": "f"
-	},
+
 	{
 		"name": "Vivier",
 		"genre": "m"
@@ -52175,10 +52169,7 @@
 		"name": "Aguesseau",
 		"genre": "m"
 	},
-	{
-		"name": "Chazeaux",
-		"genre": "f"
-	},
+
 	{
 		"name": "Godinot",
 		"genre": "m"
@@ -52247,10 +52238,7 @@
 		"name": "Boileau",
 		"genre": "m"
 	},
-	{
-		"name": "Tourville",
-		"genre": "f"
-	},
+
 	{
 		"name": "Creuzet",
 		"genre": "m"

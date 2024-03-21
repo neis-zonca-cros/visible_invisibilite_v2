@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(ArcElement, Tooltip);
 
 
 export default function Conclusion({ genreDataO, genreDataP, genreDataM, genreDataF }) {
@@ -39,3 +39,4 @@ export default function Conclusion({ genreDataO, genreDataP, genreDataM, genreDa
 
   )
 }
+

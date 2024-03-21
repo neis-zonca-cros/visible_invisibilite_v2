@@ -8,11 +8,15 @@ const Modal = ({ isOpen, onClose, streetNames }) => {
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-opacity-50 z-[99]">
       <div className="bg-background p-6 w-screen h-screen overflow-y-auto relative">
-        {/* Bouton de fermeture */}
-        <button onClick={onClose} className="absolute top-10 right-0 m-4 bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-600">Fermer</button>
-        {/* Contenu de la modal */}
-        <h2 className="text-xl font-bold mb-4 text-center m-10">Liste des noms de rues</h2>
-        <p className="text-center">{streetNames.join(', ')}</p>
+        
+        <button onClick={onClose} className="absolute top-10 right-10 text-background rounded hover:scale-110 transition-transform ease-in-out duration-200 w-fit ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="#f6d890" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+        
+        <h2 className="text-xl font-bold mb-4 text-center m-10 text-femmes font-agrandir">Noms de rues féminines</h2>
+        <p className="text-center text-font font-agrandir">{streetNames.join(', ')}</p>
       </div>
     </div>
   );
@@ -55,7 +59,7 @@ export default function PourcentFemmes({ genreDataF, feminineStreetNames }) {
                 <div className="text-4xl sm:text-4xl md:text-6xl lg:text-6xl font-[agrandir] text-font mb-4">
                   Ce qui nous laisse {genreDataF}% de rues avec des noms de femmes
                 </div>
-                <button onClick={openModal} className="font-[agrandir] text-sm mb-8 bg-gray-500 text-font py-2 px-2 rounded hover:bg-gray-600 uppercase w-fit">
+                <button onClick={openModal} className="font-[agrandir] text-sm mb-8 bg-femmes text-background py-2 px-2 rounded hover:scale-110 transition-transform ease-in-out duration-200 uppercase w-fit">
                   Voir le nom des rues
                 </button>
               </div>
