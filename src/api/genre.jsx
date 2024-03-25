@@ -44,9 +44,9 @@ export function countGenre(streets, mapObjects) {
     console.log("Other : " + countO);
 
     let pourcentO = Math.round(100 * countO / streetsCount);
-    let pourcentP = Math.round(100 * (countM + countF) / streetsCount);
     let pourcentM = Math.round(100 * countM / streetsCount);
     let pourcentF = Math.round(100 * countF / streetsCount);
+    let pourcentP = pourcentM + pourcentF;
 
     console.log("Femmes : " + pourcentF + "%");
     console.log("Other : " + pourcentO + "%");

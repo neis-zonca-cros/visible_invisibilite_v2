@@ -18,7 +18,7 @@ export function getStreetNamesByGenre(streets, mapObjects) {
         let categorized = false;
 
         for (let j = 0; j < tempTab.length; j++) {
-            if (tempTab[j].toLowerCase() === "périphérique" || tempTab[j].toLowerCase() === "bretelle" || tempTab[j].toLowerCase() === "autoroute" || tempTab[j].toLowerCase() === "tunnel") {
+            if (tempTab[j].toLowerCase() === "périphérique" || tempTab[j].toLowerCase() === "bretelle" || tempTab[j].toLowerCase() === "autoroute" || tempTab[j].toLowerCase() === "tunnel" || tempTab[j].toLowerCase() === "piste") {
                 categorized = true;
                 break;
             }
