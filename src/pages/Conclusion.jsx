@@ -32,6 +32,7 @@ export default function Conclusion({ genreDataO, genreDataP, genreDataM, genreDa
         <div className="text-autres">La</div>
         <div className="text-hommes">visible</div>
         <div className="text-femmes">invisibilité</div>
+        <div className="text-font text-sm">Les résultats peuvent varier <br></br>entre 1 et 2%</div>
       </div>
     </div>
   </div>
